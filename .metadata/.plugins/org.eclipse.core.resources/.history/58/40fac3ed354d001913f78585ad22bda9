@@ -1,0 +1,40 @@
+package lanqiao;
+
+import java.util.Scanner;
+
+public class Candy {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int children = sc.nextInt();
+		int[][] arr = new int[children][2];
+		for(int x = 0;x < children;x++) {
+			int candy = sc.nextInt();
+			arr[0][x] = candy;
+			arr[1][x] = candy/2;
+		}
+		while(true) {
+			for(int i=0;i<=arr.length;i++) {
+				
+			}
+		}
+	}
+	
+	Boolean ifEqual(int[][] arr) {
+		for(int i=0;i<arr.length;++i) {
+			int preInt = 0;
+			if(i==0) {
+				preInt = arr[0][i];
+			}else {
+				if(preInt != arr[0][i])
+					return false;
+				else {
+					preInt = arr[0][i];
+				}
+			}
+		}
+		
+		return true;
+	}
+
+}

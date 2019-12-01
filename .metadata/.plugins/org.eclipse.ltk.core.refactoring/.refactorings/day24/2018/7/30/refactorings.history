@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.heima.thread.Dem2_Thread&apos; to &apos;Demo1_Thread&apos;&#x0D;&#x0A;- Original project: &apos;day24&apos;&#x0D;&#x0A;- Original element: &apos;com.heima.thread.Dem2_Thread&apos;&#x0D;&#x0A;- Renamed element: &apos;com.heima.thread.Demo1_Thread&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Dem2_Thread&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.heima.thread{Dem2_Thread.java[Dem2_Thread" matchStrategy="1" name="Demo1_Thread" qualified="false" references="true" similarDeclarations="false" stamp="1532395817029" textual="false" version="1.0"/>
+</session>
